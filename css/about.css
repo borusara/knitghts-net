@@ -1,0 +1,44 @@
+@import url("./navbar.css");
+@import url("./footer.css");
+
+main {
+   width: 100%;
+   overflow-x: hidden;
+   padding: 30px;
+}
+
+.main-content {
+   width: 100%;
+   max-width: 900px;
+   margin: 0 auto;
+   font-family: 'Geologica', sans-serif;
+   border-radius: 10px;
+}
+
+.main-content h1 {
+   color: #143774;
+   font-size: 30px;
+   margin-bottom: 40px;
+}
+
+.main-content .banner {
+   width: 50%;
+   margin: 0 30px 30px 0;
+   border-radius: 10px;
+   float: left;
+}
+
+.main-content h2 {
+   margin: 20px 0;
+}
+
+.main-content p {
+   line-height: 30px;
+   margin-bottom: 20px;
+}
+
+@media (max-width: 750px) {
+   .main-content .banner {
+      width: 100%;
+   }
+}

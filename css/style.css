@@ -1,0 +1,338 @@
+@import url("./navbar.css");
+@import url("./footer.css");
+
+.header {
+   background: url("../images/hero-banner.jpg") no-repeat top center / cover;
+}
+
+.logo-banner {
+   width: 100%;
+   height: 30vh;
+   padding: 100px 0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   color: #fff;
+}
+
+.logo-banner h2 {
+   font-size: 40px;
+   margin-bottom: 10px;
+   text-transform: uppercase;
+   font-family: 'Geologica', sans-serif;
+   text-align: center;
+}
+
+.logo-banner h2 span {
+   text-transform: none;
+   font-family: 'UnifrakturMaguntia', cursive;
+}
+
+.logo-banner p {
+   font-family: 'Geologica', sans-serif;
+}
+
+.hero-wrapper {
+   width: 100%;
+   height: 60vh;
+   margin: 0 auto;
+   border-radius: 40px 40px 0 0;
+   background: #1118;
+}
+
+.hero {
+   width: 100%;
+   max-width: 1300px;
+   height: 100%;
+   padding: 0 50px;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+
+.hero h4 {
+   color: #fff;
+   font-size: 20px;
+   margin-bottom: 20px;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+}
+
+.hero h1 {
+   color: #fff;
+   font-size: 70px;
+   margin-bottom: 20px;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   font-family: 'Geologica', sans-serif;
+}
+
+.hero button {
+   padding: 15px 40px;
+   border: none;
+   background: #fff2;
+   font-family: 'Geologica', sans-serif;
+   font-size: 25px;
+   text-transform: uppercase;
+   border: 1.5px solid #fff;
+   transition-duration: .2s;
+}
+
+.hero button a {
+   color: #fff;
+   transition-duration: .2s;
+}
+
+.hero button:hover,
+.hero button:hover a {
+   background: #fffd;
+   transform: scale(1.03);
+   color: #000;
+}
+
+
+
+
+.main {
+   width: 100%;
+   padding: 30px;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.container-flex {
+   width: 100%;
+   max-width: 1200px;
+   display: flex;
+   margin: 0 auto;
+}
+
+.container {
+   width: 70%;
+   max-width: 1500px;
+   margin-right: 30px;
+   border-radius: 10px;
+}
+
+.article-featured {
+   width: 100%;
+   margin-bottom: 40px;
+   text-align: center;
+}
+
+.article-featured .article-title,
+.article-recent-secondary .article-title {
+   font-size: 30px;
+   margin-bottom: 20px;
+   font-family: 'Geologica', sans-serif;
+}
+
+.article-featured .article-title {
+   color: #143774;
+}
+
+.article-featured .article-image,
+.article-recent-main .article-image {
+   width: 100%;
+   margin-bottom: 30px;
+   border-radius: 10px;
+   transition-duration: .2s;
+}
+
+.article-featured .article-info,
+.article-recent-main>.article-info {
+   font-size: 23px;
+   margin-bottom: 20px;
+   text-transform: uppercase;
+   font-family: 'Geologica', sans-serif;
+   color: #143774;
+}
+
+.article-featured .article-body {
+   font-family: 'Geologica', sans-serif;
+   line-height: 30px;
+   margin-bottom: 50px;
+}
+
+.article-featured hr {
+   width: 100%;
+   height: 1px;
+   border: none;
+   background: #333;
+   margin-bottom: 50px;
+}
+
+.article-recent {
+   width: 100%;
+   display: flex;
+   align-items: start;
+   justify-content: start;
+   margin-bottom: 20px;
+}
+
+.last-recent-article {
+   margin-bottom: 0;
+}
+
+.article-recent-secondary {
+   margin-left: 20px;
+}
+
+.article-recent-secondary .article-body {
+   margin-bottom: 30px;
+}
+
+.article-recent-secondary .article-body span {
+   font-style: italic;
+}
+
+.article-recent-secondary button {
+   border: none;
+   background: #000;
+   padding: 13px 30px;
+}
+
+.article-recent-secondary button a {
+   color: #fff;
+   font-family: 'Geologica', sans-serif;
+   text-transform: uppercase;
+   transition-duration: .2s;
+}
+
+.article-recent-secondary button:hover,
+.article-recent-secondary button:hover a {
+   background: #fffd;
+   transform: scale(1.03);
+   color: #000;
+}
+
+
+
+
+.sidebar {
+   width: 30%;
+   height: max-content;
+}
+
+.sidebar .sidebar-widget {
+   width: 100%;
+   text-align: center;
+   border-radius: 10px;
+}
+
+.sidebar .sidebar-widget .widget-title {
+   font-size: 30px;
+   font-family: 'Geologica', sans-serif;
+   color: #143774;
+}
+
+.sidebar .sidebar-widget1 {
+   margin-bottom: 40px;
+}
+
+.sidebar .widget-body,
+.sidebar .recent-post-title {
+   font-family: 'Geologica', sans-serif;
+   line-height: 33px;
+}
+
+.sidebar .widget-recent-post {
+   margin-bottom: 30px;
+   font-family: 'Geologica', sans-serif;
+   font-weight: 100;
+   line-height: 28px;
+   text-transform: uppercase;
+}
+
+.sidebar-widget .widget-image {
+   width: 100%;
+   margin-top: 20px;
+   margin-bottom: 10px;
+   border-radius: 10px;
+   transition-duration: .2s;
+}
+
+.sidebar .sidebar-widget1 .widget-image {
+   margin-bottom: 20px;
+   transition-duration: .2s;
+}
+
+@media (max-width: 1150px) {
+   .article-recent-main img {
+      width: 100%;
+   }
+
+   .article-featured .article-title,
+   .article-recent-secondary .article-title {
+      margin-bottom: 20px;
+   }
+
+   .article-recent {
+      flex-direction: column;
+      align-items: start;
+      justify-content: center;
+   }
+
+   .article-recent-secondary {
+      margin-left: 0;
+   }
+}
+
+@media (max-width: 1000px) {
+   .hero h1 {
+      font-size: 50px;
+   }
+
+   .hero button {
+      transform: scale(.7);
+   }
+
+   .container-flex {
+      flex-direction: column;
+   }
+
+   .container-flex div,
+   .container-flex aside {
+      width: 100%;
+   }
+
+   .container {
+      margin-bottom: 30px;
+   }
+}
+
+@media (max-width: 800px) {
+   .logo-banner h2 {
+      font-size: 23px;
+   }
+
+   .hero {
+      padding: 0;
+   }
+
+   .hero h4 {
+      font-size: 20px;
+   }
+
+   .hero h1 {
+      font-size: 30px;
+   }
+
+   .hero button {
+      font-size: 20px;
+   }
+}
+
+@media (max-width: 450px) {
+   .hero h4 {
+      font-size: 10px;
+   }
+
+   .hero h1 {
+      font-size: 20px;
+   }
+}
